@@ -53,9 +53,21 @@ spec:
             periodSeconds: {{ .Values.readinessProbe.periodSeconds }}
             successThreshold: {{ .Values.readinessProbe.successThreshold }}
             timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
-          envFrom:
-            - configMapRef:
-                name: dlt-adapter-env-config 
+          env:
+            - name: "DEBUG"
+              value: {{ .Values.env.DEBUG | quote }}
+            - name: "PRIVATE_KEY"
+              value: {{ .Values.env.PRIVATE_KEY| quote }}
+            - name: "DOME_EVENTS_CONTRACT_ADDRESS"
+              value: {{ .Values.env.DOME_EVENTS_CONTRACT_ADDRESS | quote }}
+            - name: "DOME_EVENTS_CONTRACT_ABI"
+              value: {{ .Values.env.DOME_EVENTS_CONTRACT_ABI | quote }}
+            - name: "DOME_PRODUCTION_BLOCK_NUMBER"
+              value: {{ .Values.env.DOME_PRODUCTION_BLOCK_NUMBER | quote }}
+            - name: "RPC_ADDRESS"
+              value: {{ .Values.env.RPC_ADDRESS | quote }}
+            - name: "ISS"
+              value: {{ .Values.env.ISS | quote }}
 
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
