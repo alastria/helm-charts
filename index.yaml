@@ -3,7 +3,7 @@ entries:
   dlt-adapter:
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2024-09-17T07:19:07.448246959Z"
+    created: "2025-12-17T17:06:37.593737+01:00"
     description: A Helm chart for DLT Adapter component
     digest: 19ce1f0e201897a65a27e24a1d8ce7cf6512bd849c8939a63a5ad9645dfa3a66
     maintainers:
@@ -18,7 +18,7 @@ entries:
     version: 8.0.0
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2024-09-17T07:19:07.447576221Z"
+    created: "2025-12-17T17:06:37.59345+01:00"
     description: A Helm chart for DLT Adapter component
     digest: c3a4ba85e5081439693cbe17f7b35e56ee5e89a2a4dbbd4e3702b2cc724353e2
     maintainers:
@@ -33,7 +33,7 @@ entries:
     version: 7.0.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2024-09-17T07:19:07.446220305Z"
+    created: "2025-12-17T17:06:37.593177+01:00"
     description: A Helm chart for DLT Adapter component
     digest: cd13759782b6c2eb703d7d796fd7fbf234aec26efb14e4afdceebbdeef9d3f19
     maintainers:
@@ -48,7 +48,7 @@ entries:
     version: 6.0.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2024-09-17T07:19:07.445288174Z"
+    created: "2025-12-17T17:06:37.592927+01:00"
     description: A Helm chart for DLT Adapter component
     digest: 81b1b256b6760d97350ee89859d4355d591756c516313a95d8c516cd41266d21
     maintainers:
@@ -63,7 +63,7 @@ entries:
     version: 5.0.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2024-09-17T07:19:07.444358164Z"
+    created: "2025-12-17T17:06:37.592466+01:00"
     description: A Helm chart for DLT Adapter component
     digest: b4fe25a0c96019f198929ed1091d69c21113726886a6da787482739ce1baef3c
     maintainers:
@@ -78,7 +78,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2024-09-17T07:19:07.443452478Z"
+    created: "2025-12-17T17:06:37.592221+01:00"
     description: A Helm chart for DLT Adapter component
     digest: c7b46c8d54006acae4278aca4f7f72af5d3da56e6b160eb0607d32c060fa2f38
     maintainers:
@@ -93,7 +93,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: "1.4"
-    created: "2024-09-17T07:19:07.442516486Z"
+    created: "2025-12-17T17:06:37.5915+01:00"
     description: A Helm chart for DLT Adapter component
     digest: 9d7ed922d01dac6d63185c90da1e89521247e721e0e10dd893e12c55af8cfc8f
     maintainers:
@@ -108,7 +108,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.3"
-    created: "2024-09-17T07:19:07.441551286Z"
+    created: "2025-12-17T17:06:37.591136+01:00"
     description: A Helm chart for DLT Adapter component
     digest: ce514759027c7f9c256ab14835ae8ea3d37bbe56884c63fda63120839c1d9ecd
     maintainers:
@@ -121,4 +121,28 @@ entries:
     urls:
     - https://alastria.github.io/helm-charts/dlt-adapter-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-17T07:19:07.440089947Z"
+  dome-ied:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-17T17:06:37.594099+01:00"
+    description: DOME Interchain Event Distributor - Blockchain event replication
+      middleware
+    digest: e882bbd553d8ea5336f2e6d22414fb341613fa52acc37fdf48afe6f6e6eca05e
+    home: https://github.com/MrSlapar/dome-ied
+    keywords:
+    - dome
+    - blockchain
+    - event-distributor
+    - middleware
+    - dlt
+    maintainers:
+    - email: support@digiteltslabs.com
+      name: DigitelTS
+    name: dome-ied
+    sources:
+    - https://github.com/MrSlapar/dome-ied
+    type: application
+    urls:
+    - https://alastria.github.io/helm-charts/dome-ied-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-12-17T17:06:37.58971+01:00"

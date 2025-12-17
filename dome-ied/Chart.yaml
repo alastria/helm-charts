@@ -1,0 +1,18 @@
+apiVersion: v2
+name: dome-ied
+description: DOME Interchain Event Distributor - Blockchain event replication middleware
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - dome
+  - blockchain
+  - event-distributor
+  - middleware
+  - dlt
+home: https://github.com/MrSlapar/dome-ied
+sources:
+  - https://github.com/MrSlapar/dome-ied
+maintainers:
+  - name: DigitelTS
+    email: support@digiteltslabs.com
